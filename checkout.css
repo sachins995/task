@@ -1,0 +1,156 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column;
+    margin: 20px;
+    font-family: "Metropolis", sans-serif;
+}
+.heading{
+width: 340.73px;
+border: 0.9px;
+justify-content: center;
+display: flex;
+align-items: center;
+margin-top: 20px; 
+}
+hr{
+    border: 0.9px solid  
+    rgba(200, 200, 200, 1);
+    flex: 1;
+   
+}
+span{
+    color:rgba(0, 127, 97, 1);
+    position: absolute;
+   background-color: white;
+   font-family: "Metropolis", sans-serif;
+   font-weight:500;
+   font-size:16px;
+  line-height: 18.08px;
+  width:117px;
+  height:18px;
+   
+}
+
+#checkout1{
+    display: flex;
+    width:340.73px;
+    height:74.11px;
+    border-radius:3.62px;
+    border-color: rgba(200, 200, 200, 1);
+    border: 1.9px solid  rgba(200, 200, 200, 1);
+    
+    margin-top: 20px; 
+    
+}
+
+#checkout2{
+    display: flex;
+    width:341px;
+    height:162px;
+    border-radius:3.62px;
+    border-color: rgba(200, 200, 200, 1);
+    border: 1.9px solid  rgba(200, 200, 200, 1);
+    margin-top: 20px; 
+    justify-content: space-between;
+    
+}
+
+#checkout3{
+    display: flex;
+    width:340.73px;
+    height:74.11px;
+    border-radius:3.62px;
+    border-color: rgba(200, 200, 200, 1);
+    border: 1.9px solid  rgba(200, 200, 200, 1);
+    
+    margin-top: 20px; 
+    
+}
+
+
+#radiotext1{
+
+    margin: 18px;
+    font-family: "Metropolis", sans-serif;
+}
+
+#radiotext2{
+
+    margin: 16px;
+    font-family: "Metropolis", sans-serif;
+    padding-top: 8px;
+}
+#radiotext3{
+
+    margin: 18px;
+    font-family: "Metropolis", sans-serif;
+}
+
+#off1{
+    margin-left: 109px;
+    margin-top: 25px;
+    font-weight:bold;
+    font-family: "Metropolis", sans-serif;
+}
+
+#off2{
+   
+    font-weight: bold;
+    font-family: "Metropolis", sans-serif;
+    margin-right: 15px;
+    padding-top: 8px;
+}
+#off3{
+    margin-left: 109px;
+    margin-top: 25px;
+    font-weight:bold;
+    font-family: "Metropolis", sans-serif;
+    
+}
+#radioButton2{
+   margin-top: -40px;
+}
+#represent{
+   
+    margin-top: 65px;
+    margin-left: -324px;
+    margin-right: 184px
+}
+#represent1{
+     display: flex;
+    flex-direction: column; 
+     margin-left: -305px;
+     margin-top: 50px;
+}
+
+th, td{
+    text-align: left;
+}
+#details{
+    display: flex;
+    margin-top: 20px
+}
+
+#offer{
+    color: rgba(0, 127, 97, 1);
+    
+ }
+ #total{
+    margin-left: 65px;
+ }
+#btn{
+    color: white;
+    width: 341px;
+    background-color: rgba(0, 127, 97, 1);
+    border-radius:  4px, 4px, 4px, 0px;
+    height: 48px;
+    margin-top: 20px;
+    
+}
+input[type="radio"]:checked::before {
+    background-color: rgba(0, 127, 97, 1); 
+  }
