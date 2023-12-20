@@ -2,7 +2,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    height: 550px;
     margin: 0;
     flex-direction: column;
     margin: 20px;
@@ -37,23 +37,22 @@ span{
 
 #checkout1{
     display: flex;
-    width:340.73px;
-    height:74.11px;
+    width: 340.73px;
+    height: 74.11px;
     border-radius:3.62px;
     border-color: rgba(200, 200, 200, 1);
-    border: 1.9px solid  rgba(200, 200, 200, 1);
-    
+    border: 0.9px solid  rgba(200, 200, 200, 1);
     margin-top: 20px; 
     
 }
 
 #checkout2{
     display: flex;
-    width:341px;
-    height:162px;
+    width:340.73px;
+    height:74.11px;
     border-radius:3.62px;
     border-color: rgba(200, 200, 200, 1);
-    border: 1.9px solid  rgba(200, 200, 200, 1);
+    border: 0.9px solid  rgba(200, 200, 200, 1);
     margin-top: 20px; 
     justify-content: space-between;
     
@@ -65,8 +64,7 @@ span{
     height:74.11px;
     border-radius:3.62px;
     border-color: rgba(200, 200, 200, 1);
-    border: 1.9px solid  rgba(200, 200, 200, 1);
-    
+    border: 0.9px solid  rgba(200, 200, 200, 1);
     margin-top: 20px; 
     
 }
@@ -76,18 +74,21 @@ span{
 
     margin: 18px;
     font-family: "Metropolis", sans-serif;
+    padding-right: 6px
 }
 
 #radiotext2{
 
-    margin: 16px;
+    margin: 18px;
     font-family: "Metropolis", sans-serif;
-    padding-top: 8px;
+    padding-right: 72px;
+    /* padding-top: 5px; */
 }
 #radiotext3{
 
     margin: 18px;
     font-family: "Metropolis", sans-serif;
+    padding-right: 6px
 }
 
 #off1{
@@ -101,38 +102,56 @@ span{
    
     font-weight: bold;
     font-family: "Metropolis", sans-serif;
-    margin-right: 15px;
-    padding-top: 8px;
+    margin-right: 13px;
+    padding-top: 0px;
 }
 #off3{
     margin-left: 109px;
     margin-top: 25px;
     font-weight:bold;
     font-family: "Metropolis", sans-serif;
-    
+     
 }
-#radioButton2{
-   margin-top: -40px;
-}
-#represent{
-   
-    margin-top: 65px;
-    margin-left: -324px;
-    margin-right: 184px
-}
+/* #radioButton2{
+   padding-top: 0px;
+   margin-bottom: 50px;
+} */
+
 #represent1{
-     display: flex;
+    display: none;
+     /* display: flex; */
     flex-direction: column; 
-     margin-left: -305px;
-     margin-top: 50px;
+    margin-left: -310px;
+    margin-top: 60px;
+}
+#represent2{
+    display: none;
+    /* display: flex; */
+    
+    margin-top: 60px;
+    margin-left: -325px;
+    margin-right: 183px;
+}
+#represent3{
+    display: none;
+    /* display: flex; */
+   flex-direction: column; 
+   margin-left: -310px;
+   margin-top: 60px;
 }
 
 th, td{
     text-align: left;
+    font-weight: normal; 
+    font-size:10.85px;
+}
+td{
+    
+    font-size: 10.85px;
 }
 #details{
     display: flex;
-    margin-top: 20px
+    margin-top: 20px;
 }
 
 #offer{
@@ -146,11 +165,16 @@ th, td{
     color: white;
     width: 341px;
     background-color: rgba(0, 127, 97, 1);
-    border-radius:  4px, 4px, 4px, 0px;
+    border-radius:  4px 4px 4px 0px ;
     height: 48px;
     margin-top: 20px;
+    border : 0.9px solid rgba(0, 127, 97, 1);
     
 }
-input[type="radio"]:checked::before {
+/* input[type="radio"]:checked {
     background-color: rgba(0, 127, 97, 1); 
+  } */
+
+  input[type="radio"]:checked ~ #checkout1 {
+    background-color:rgba(0, 127, 97, 1);
   }
