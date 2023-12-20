@@ -9,7 +9,9 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
     let cartItems = document.querySelectorAll("#checkout1, #checkout2, #checkout3")
+
     for (let i = 0; i < cartItems.length ; i++) {
+        
         document.getElementById("radioButton" + (i + 1)).addEventListener("click", function () {
             for (let j = 0; j < cartItems.length; j++) {
                 let x = document.getElementById("checkout" + (j + 1));
@@ -17,7 +19,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 const div2 = document.getElementById("represent" + (j + 1));
     
                 if (j === i && a.checked) {
-                   
+                     
                     x.style.backgroundColor = "rgba(0, 127, 97, 0.1)";
                     x.style.border = "0.9px solid rgba(0, 127, 97, 1)";
                     x.style.height = "162px";
@@ -25,6 +27,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     a.style.paddingTop = "0px";
                     a.style.marginBottom = "89px";
                     div2.style.display = "flex";
+                    
                 } else {
                     x.style.backgroundColor = "white";
                     x.style.border = "0.9px solid rgba(200, 200, 200, 1)";
@@ -51,7 +54,13 @@ document.addEventListener('DOMContentLoaded', function () {
             }
         });
     }
-
+  
+    // for (let i = 0; i < cartItems.length ; i++) {
+    //     let g = 0;
+    //     document.getElementById("radioButton" + (i + 1)).addEventListener("click", function () {
+    //         let x = document.getElementById("checkout" + (j + 1));
+    //             let a = document.getElementById("radioButton" + (i + 1));
+    //             const div2 = document.getElementById("represent" + (j + 1));
 
     // let cartItems = document.querySelectorAll("#checkout1, #checkout2, #checkout3");
 
